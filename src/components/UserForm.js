@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import useSubmit from "../hooks/useSubmit";
 import { getUser } from "../services/userApi";
 import User from "./User";
-import {Link,HashRouter as Router,Routes,Route} from 'react-router-dom'
+import {Link,} from 'react-router-dom'
 
 
 const UserForm = () => {
